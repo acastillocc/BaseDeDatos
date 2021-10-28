@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+body{
+    background: #d0d9ff;
+}
+
+.logout {
+    display: flex;
+    padding: 3px;
+    background-color: red;
+    cursor: pointer;
+    width: 10%;
+    height: 25px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.15);
+}
+
+.logout:hover{
+    background-color: #da0404;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+}

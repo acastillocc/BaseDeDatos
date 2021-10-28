@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.contenedor_formulario{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin:8% 30%;
+}
+.form-label {
+    display: flex;
+    justify-content: center;
+}
+#Dpreview {
+    display: none;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    width: 480px;
+    height: 320px;
+  }
+
+  #preview {
+    height: 100%;
+  }
+
+  .admin:hover{
+      display: flex;
+      color: blue;
+      cursor: pointer;
+  }
+
